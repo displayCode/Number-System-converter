@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta description="Decimal, Binary, octal and hexadecimal converter">
+	<meta keyword="decimal, binary, octal, hexadecimal">
+	<link rel="stylesheet" href="styling.css">
+	<title>Converter</title>
+	<style>
+		
+	</style>
+</head>
+<body>
+	<header>
+		<section>
+			<h1 id="title">Converter</h1>
+			<div>menu</div>
+		</section>
+		<nav>
+			<ul>
+				<li id="decBin-nav"><a href="#decBinDiv">Decimal <> Binary</a></li>
+				<li id="decBin-nav"><a href="#decOctDiv">Decimal <> Octal</a></li>
+				<li id="decBin-nav"><a href="#decHexDiv">Decimal <> Hexdecimal</a></li>
+			</ul>
+		</nav>	
+	</header>
+
+	<div id="decBinDiv" class="container">
+		<h2>Decimal <> Binary</h2>
+		<div class="inputsDiv">
+			<input type="text" id="decBin" placeholder="Decimal number">
+			<h3>or</h3>
+			<input type="text" id="binDec" placeholder="Binary number">
+			<button id="convertDecBin">Convert</button>
+			<p id="decBinResult">result</p>
+		</div>
+	</div>
+
+	<div id="decOctDiv" class="container">
+		<h2>Decimal <> Octal</h2>
+		<div class="inputsDiv">
+			<input type="text" id="decOct" placeholder="Decimal number">
+			<h3>or</h3>
+			<input type="text" id="octDec" placeholder="Octal number">
+			<button id="convertDecOct">Convert</button>
+			<p id="decBinResult">result</p>
+		</div>
+	</div>
+
+	<div id="decHexDiv" class="container">
+		<h2>Decimal <> Hexdecimal</h2>
+		<div class="inputsDiv">
+			<input type="text" id="decHex" placeholder="Decimal number">
+			<h3>or</h3>
+			<input type="text" id="HexDec" placeholder="Hexdecimal number">
+			<button id='convertDecHex'>Convert</button>
+			<p id="decBinResult"></p>
+		</div>
+	</div>
+	<script src="logic.js"></script>
+</body>
+</html>
